@@ -1,12 +1,18 @@
 // eslint-disable-next-line
 import React, {Component, Fragment, lazy, Suspense} from "react";
-import {Redirect, Route, Switch} from "react-router-dom";
+import {Route, Switch} from "react-router-dom";
+import NavBar from "./ui/components/Layout/Default"
 
 const routesConfig = [
   {
-    exact: true,
-    path: "/",
-    component: lazy(() => import("./ui/pages/home")),
+    layout: NavBar,
+    routes: [
+      {
+        exact: true,
+        path: "/",
+        component: lazy(() => import("./ui/pages/home")),
+      }
+    ]
   }
 ];
 
