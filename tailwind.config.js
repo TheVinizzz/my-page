@@ -28,7 +28,8 @@ module.exports = {
       primarySada: '#3FB54B',
       secondarySada: '#2687E9',
       greySada: '#00000099',
-      errorSada: '#B00020'
+      errorSada: '#B00020',
+      blueMid: '#04142e'
     },
     spacing: {
       px: '1px',
