@@ -1,0 +1,31 @@
+.MuiPagination-ul {
+    justify-content: center;
+}
+
+.MuiButtonBase-root {
+    height: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.MuiListItem-root {
+    height: 3rem;
+}
+
+.MuiPaginationItem-root {}
+
+.MuiPaginationItem-page:hover {
+    background: #2687E926 !important;
+}
+
+.MuiPaginationItem-outlined.Mui-selected {
+    background: #2687E94D !important;
+    border: 1px solid #2687E9;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+button {
+    text-transform: uppercase !important;
+}
